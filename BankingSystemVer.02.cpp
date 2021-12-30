@@ -1,8 +1,9 @@
 /*
- * Banking System Ver.0.1
+ * Banking System Ver.0.2
  * 작성자:하창완
- * 내 용:OOP 단계별 프로젝트 기본 틀 구성
+ * 내 용:Account 클래스 정의, 객체 포인터 배열 적용
  */
+
 #include <iostream>
 #include <cstring>
 

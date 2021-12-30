@@ -1,8 +1,9 @@
 /*
- * Banking System Ver.0.1
+ * Banking System Ver.0.4
  * 작성자:하창완
- * 내 용:OOP 단계별 프로젝트 기본 틀 구성
+ * 내 용:Account 클래스에 const 추가
  */
+
 #include <iostream>
 #include <cstring>
 

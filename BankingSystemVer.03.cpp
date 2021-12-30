@@ -1,8 +1,9 @@
 /*
- * Banking System Ver.0.1
+ * Banking System Ver.0.3
  * 작성자:하창완
- * 내 용:OOP 단계별 프로젝트 기본 틀 구성
+ * 내 용:복사 생성자가 들어간 Account 클래스
  */
+
 #include <iostream>
 #include <cstring>
 
@@ -31,10 +32,10 @@ class Account{
 			strcpy(cusName, name);
 		}
 		Account(const Account & ref)
-			:accID(ref.ID), balance(ref.balance)
+			:accID(ref.accID), balance(ref.balance)
 		{
-			cusName=new char [strlen(name)+1];
-			strcpy(cusName, name);
+			cusName=new char [strlen(ref.cusName)+1];
+			strcpy(cusName, ref.cusName);
 		}
 
 		int GetAccID() { return accID;}

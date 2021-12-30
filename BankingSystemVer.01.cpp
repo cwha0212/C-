@@ -3,6 +3,7 @@
  * 작성자:하창완
  * 내 용:OOP 단계별 프로젝트 기본 틀 구성
  */
+
 #include <iostream>
 #include <cstring>
 
@@ -90,7 +91,7 @@ void DepositMoney(void){
 	cout << "입금액: "; cin >> money;
 
 	for(int i=0; i<accNum; i++){
-			if(accArr[i].accID=id){
+			if(accArr[i].accID==id){
 				accArr[i].balance+=money;
 				cout << "입금완료" << endl << endl;
 				return;
