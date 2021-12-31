@@ -13,4 +13,7 @@
  - Account 클래스 const 추가
 
 ## ver.05
- - AccountHamdler 클래스 
+ - AccountHandler 클래스 
+
+## ver.06
+ - NormalAccount와 CreditAccount 
