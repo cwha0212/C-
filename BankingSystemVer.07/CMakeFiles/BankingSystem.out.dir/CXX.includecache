@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cwha0212/cpp_oop/BankingSystemVer.07/Account.cpp
+BankingCommonDecl.h
+/home/cwha0212/cpp_oop/BankingSystemVer.07/BankingCommonDecl.h
+Account.h
+/home/cwha0212/cpp_oop/BankingSystemVer.07/Account.h
+
+/home/cwha0212/cpp_oop/BankingSystemVer.07/Account.h
+
+/home/cwha0212/cpp_oop/BankingSystemVer.07/BankingCommonDecl.h
+iostream
+-
+cstring
+-
+
