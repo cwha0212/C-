@@ -17,3 +17,6 @@
 
 ## ver.06
  - NormalAccount와 CreditAccount 
+
+## ver.07
+ - 헤더파일 분할 및 CMAKELISTS이용
