@@ -6,13 +6,19 @@
 
 #include "String.h"
 
-String::String(const char* s){
+String::String(){
 	len=0;
 	str=NULL;
 }
 
-String::String(const String& s){
+String::String(const char* s){
 	len=strlen(s)+1;
+	str=new char[len];
+	strcpy(str, s);
+}
+
+String::String(const String& s){
+	len=s.len;
 	str=new char[len];
 	strcpy(str, s);
 }
