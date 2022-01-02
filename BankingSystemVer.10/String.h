@@ -24,6 +24,6 @@ class String{
 		String operator+ (const String& s);
 
 		friend ostream& operator<< (ostream& os, const String& s);
-		friend ostream& operator>> (ostream& is, String& s);
+		friend istream& operator>> (istream& is, String& s);
 };
 #endif
