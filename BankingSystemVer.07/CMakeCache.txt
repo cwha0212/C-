@@ -215,12 +215,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Value Computed by CMake
-ChangsCode_BINARY_DIR:STATIC=/home/cwha0212/cpp_oop/BankingSystemVer.07
-
-//Value Computed by CMake
-ChangsCode_SOURCE_DIR:STATIC=/home/cwha0212/cpp_oop/BankingSystemVer.07
-
 
 ########################
 # INTERNAL cache entries
