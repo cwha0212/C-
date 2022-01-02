@@ -26,3 +26,9 @@
  
 ## ver.09
  - String.h, String.cpp 추가
+
+## ver.10
+ - 템플릿 추가
+
+## ver.final
+ - 예외처리기능 추가
